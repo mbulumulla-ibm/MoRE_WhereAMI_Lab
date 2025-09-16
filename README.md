@@ -547,7 +547,7 @@ The AMA Dev Tools is an extension for IDEs. You will use Visual Studio Code and 
 		code .
 
 	
-	If a pop-up with **Authentication required** appears, enter the password as: **IBMDemo0s!** and click **Unlock**.
+	If a pop-up with **Authentication required** appears, enter the password as: **IBMDem0s!** and click **Unlock**.
 
 	<kbd>![tz_Login_Keyring_Action_Required](./images/media/tz_Login_Keyring_Action_Required.png)</kbd>
 
