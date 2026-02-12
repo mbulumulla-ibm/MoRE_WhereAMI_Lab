@@ -394,7 +394,7 @@ Otherwise, you will need to reserve an environment for the lab. You can obtain o
 1. Start AMA
 
 		cd ~/application-modernization-accelerator-local-4.5.0/
-		scripts/startLocal.sh 
+		./launch.sh 
 
 	Wait until AMA has started successfully, and the URL is displayed.
 
@@ -1046,7 +1046,7 @@ For the **AMA Analyze scenario**, there are some steps required in addition to t
 1. Start AMA via command
 	
 		cd ~/application-modernization-accelerator-local-4.5.0/
-		scripts/startLocal.sh 
+		./launch.sh 
 
 2. Open AMA via URL https://rhel9-base.gym.lan:3001
 3. In AMA, create a workspace called **MoRE_Demo**
