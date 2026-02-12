@@ -442,7 +442,7 @@ Otherwise, you will need to reserve an environment for the lab. You can obtain o
 
 			cd bin
 			chmod +x ama-discovery
-			./ama-discovery -was-home /home/techzone/IBM/WebSphere/AppServer -profile Dmgro1
+			./ama-discovery -was-home /home/techzone/IBM/WebSphere/AppServer -profile Dmgr01
 
 		
 	5. Enter **1** to **Accept the license agreement** when asked to do so.
