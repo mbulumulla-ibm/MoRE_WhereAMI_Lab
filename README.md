@@ -440,7 +440,7 @@ Otherwise, you will need to reserve an environment for the lab. You can obtain o
 
 	3. Start the data collector against the MoRE cell via command (this has been changed for AMA 4.5.0
 
-			cd ~/Downloads/DiscoveryTool-Linux_TX2026/ama-discovery-4.5.0/bin
+			cd bin
 			chmod +x ama-discovery
 			./ama-discovery -was-home /home/techzone/IBM/WebSphere/AppServer -profile Dmgro1
 
