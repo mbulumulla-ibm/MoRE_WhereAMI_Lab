@@ -1090,9 +1090,12 @@ For the **MoRE scenario**, there are some steps required in addition to the mand
 		~/IBM/WebSphere/AppServer/profiles/Dmgr01/bin/wsadmin.sh -lang jython -user techzone -password IBMDem0s! -f ~/Student/labs/WhereAmI_MoRE_Demo_assets/setupScripts/tWASCluster_WhereAmI_install.py 
 
 		# Start the tWAS cluster
-		~/IBM/WebSphere/AppServer/profiles/Dmgr01/bin/wsadmin.sh -lang jython -user techzone -password IBMDem0s! -f ~/Student/labs/WhereAmI_MoRE_Demo_assets/setupScripts/tWASCluster_start.py 
+		~/IBM/WebSphere/AppServer/profiles/Dmgr01/bin/wsadmin.sh -lang jython -user techzone -password IBMDem0s! -f ~/Student/labs/WhereAmI_MoRE_Demo_assets/setupScripts/tWASCluster_start.py
 
-3. Access the WAS Admin Console at https://localhost:9043/ibm/console.
+		# Start the IBM HTTP Server via command
+   		/home/techzone/IBM/HTTPServer/bin/apachectl start
+
+4. Access the WAS Admin Console at https://localhost:9043/ibm/console.
 	Enable command assistance
 
 	1. Navigate to **System administration > Console preferences**
