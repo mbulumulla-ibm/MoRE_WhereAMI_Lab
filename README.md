@@ -438,17 +438,19 @@ Otherwise, you will need to reserve an environment for the lab. You can obtain o
 			cd ~/Downloads
 			tar -zxvf DiscoveryTool-Linux_MoRE_Demo.tgz
 
-	2. Start the data collector against the MoRE cell via command
+	3. Start the data collector against the MoRE cell via command (this has been changed for AMA 4.5.0
 
-			cd ~/Downloads
-			transformationadvisor-4.3.0/bin/transformationadvisor -w /home/techzone/IBM/WebSphere/AppServer/
+			cd ~/Downloads/DiscoveryTool-Linux_TX2026/ama-discovery-4.5.0/bin
+			chmod +x ama-discovery
+			./ama-discovery -was-home /home/techzone/IBM/WebSphere/AppServer -profile Dmgro1
+
 		
-	3. Enter **1** to **Accept the license agreement** when asked to do so.
+	5. Enter **1** to **Accept the license agreement** when asked to do so.
 
 		<kbd>![AMA_Collector_AcceptLicense](./images/media/AMA_Collector_AcceptLicense.png)</kbd>
 		
 
-	4. Wait until the collection has been uploaded and is available in AMA.
+	6. Wait until the collection has been uploaded and is available in AMA.
 
 		<kbd>![AMA_Collector_uploaded](./images/media/AMA_Collector_uploaded.png)</kbd>
 		
