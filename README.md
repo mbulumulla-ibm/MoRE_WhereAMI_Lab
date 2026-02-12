@@ -393,7 +393,7 @@ Otherwise, you will need to reserve an environment for the lab. You can obtain o
 
 1. Start AMA
 
-		cd ~/application-modernization-accelerator-local-4.3.0/
+		cd ~/application-modernization-accelerator-local-4.5.0/
 		scripts/startLocal.sh 
 
 	Wait until AMA has started successfully, and the URL is displayed.
@@ -951,7 +951,7 @@ Then perform the following steps:
 
 2. Stop AMA
 
-		cd ~/application-modernization-accelerator-local-4.3.0/
+		cd ~/application-modernization-accelerator-local-4.5.0/
 		scripts/stopLocal.sh 
 		
 3. Remove the data collector and other AMA generated files
@@ -1045,7 +1045,7 @@ For the **AMA Analyze scenario**, there are some steps required in addition to t
 
 1. Start AMA via command
 	
-		cd ~/application-modernization-accelerator-local-4.3.0/
+		cd ~/application-modernization-accelerator-local-4.5.0/
 		scripts/startLocal.sh 
 
 2. Open AMA via URL https://rhel9-base.gym.lan:3001
